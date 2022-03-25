@@ -1,14 +1,19 @@
 {
   "Languages":[
     {
+      "DisplayName" : "Português",
+      "Code" : "pt-BR",
+      "IsDefault": true
+    },
+    {
       "DisplayName" : "English",
       "Code" : "en",
       "IsDefault": false
     },
     {
-      "DisplayName" : "Português",
-      "Code" : "pt-BR",
-      "IsDefault": true
+      "DisplayName" : "Español",
+      "Code" : "es",
+      "IsDefault": false
     }
   ]
 }
