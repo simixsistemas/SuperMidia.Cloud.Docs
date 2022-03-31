@@ -50,7 +50,7 @@ Note que é somente um exemplo, o seu arquivo pode variar.
 | Nome   | 19          | 50      |
 | Preço  | 10          | 6       |
 
-Para confirmar a posição inicial e tamanho, utilize o **Bloco de notas** ou o https://vscode.dev
+Para confirmar a posição inicial e tamanho, utilize o **Bloco de notas** ou o [VSCode](https://vscode.dev)
 
 
 ## Com separador
