@@ -1,16 +1,16 @@
 {
-  "items": [
+  "items":[
     {
-      "text": "Layout de arquivos",
-      "path": "Layout-Arquivos.md"
+      "text":"Layout de arquivos",
+      "path":"Layout-Arquivos.md"
     },
     {
-      "text": "Dicas",
-      "path": "Dicas.md"
+      "text":"Dicas",
+      "path":"Dicas.md"
     },
     {
-      "text": "• Atualizações",
-      "path": "Atualizacoes/2022-04.md"
+      "text":"Atualizações",
+      "path":"Atualizacoes/2022-04.md"
     }
   ]
 }
