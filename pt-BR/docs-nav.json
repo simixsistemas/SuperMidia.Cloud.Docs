@@ -9,10 +9,6 @@
       "path":"Dicas.md"
     },
     {
-<<<<<<< Updated upstream
-      "text":"Atualizações",
-      "path":"Atualizacoes/2022-04.md"
-=======
       "text": "Dispositivos",
       "items": [
         {
@@ -51,7 +47,6 @@
           "path": "App/Limitacoes.md"
         }
       ]
->>>>>>> Stashed changes
     }
   ]
 }
