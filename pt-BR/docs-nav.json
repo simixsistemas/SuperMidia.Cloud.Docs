@@ -1,16 +1,45 @@
 {
   "items": [
     {
-      "text": "Layout de arquivos",
-      "path": "Layout-Arquivos.md"
-    },
-    {
       "text": "Dicas",
       "path": "Dicas.md"
     },
     {
-      "text": "• Atualizações",
-      "path": "Atualizacoes/2022-04.md"
+      "text": "Importação de arquivos",
+      "path": "Layout-Arquivos.md",
+      "items": [
+        {
+          "text": "Layout de arquivos",
+          "path": "Layout-Arquivos.md"
+        }
+      ]
+    },
+    {
+      "text": "Dispositivos",
+      "items": [
+        {
+          "text": "Modo de consulta",
+          "path": "Dispositivos/Modo-Consulta.md"
+        }
+      ]
+    },
+    {
+      "text": "Produtos",
+      "items": [
+        {          
+          "text": "Modelos de ofertas",
+          "path": "Modelos-Ofertas.md"          
+        }
+      ]
+    },
+    {
+      "text": "Detalhes técnicos",
+      "items": [
+        {          
+          "text": "Limitações",
+          "path": "Limitacoes.md"
+        }
+      ]
     }
   ]
 }
