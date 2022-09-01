@@ -9,8 +9,49 @@
       "path":"Dicas.md"
     },
     {
+<<<<<<< Updated upstream
       "text":"Atualizações",
       "path":"Atualizacoes/2022-04.md"
+=======
+      "text": "Dispositivos",
+      "items": [
+        {
+          "text": "Modo de consulta",
+          "path": "Dispositivos/Modo-Consulta.md"
+        }
+      ]
+    },
+    {
+      "text": "Produtos",
+      "items": [
+        {          
+          "text": "Modelos de ofertas",
+          "path": "Modelo-Ofertas.md"          
+        }
+      ]
+    },
+    {
+      "text": "Aplicativo (Player)",
+      "items": [
+        {          
+          "text": "Atalhos",
+          "path": "App/Atalhos.md"          
+        },
+        {          
+          "text": "Comandos",
+          "path": "Comandos.md"
+        }
+      ]
+    },
+    {
+      "text": "Detalhes técnicos",
+      "items": [
+        {          
+          "text": "Limitações",
+          "path": "App/Limitacoes.md"
+        }
+      ]
+>>>>>>> Stashed changes
     }
   ]
 }
