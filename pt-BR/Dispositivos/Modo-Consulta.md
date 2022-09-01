@@ -12,7 +12,7 @@ As opções do modo de consulta do Terminal são:
 
 ## Exemplos das consultas
 
-Executar o [comando](App\Comandos.md):  
+Executar o [comando](../App/Comandos.md):  
 `Barras 7894900011517`
 
 ![Terminal](../Imagens/Terminal1.png)
