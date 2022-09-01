@@ -77,3 +77,35 @@ Para confirmar a posição inicial e tamanho, utilize o **Bloco de notas** ou o 
 | Nome             | 3           |         | 
 | Preço            | 7           |         | 
 | Código de barra  | 2           |         | 
+
+## Formatação avançada
+
+Quando algum código estiver na descrição ele pode ser extraído e colocado no campo adequado.
+Neste exemplo os códigos de barras estão dentro da descrição (tendo inclusive mais de um), não havendo um campo específico no layout para eles.  
+Essa situação pode ser contornada com expressões regulares (Regex).
+
+### Exemplo
+
+```
+1|Produto 1 (COD 12345)|R$ 10,00
+2|Produto 2 (CÓDIGO 2000/2001)|R$ 20,00
+3|Produto 3|R$ 30,00
+```
+
+### Configuração
+
+| Nome             | Pos.Inicial | Tamanho | Campo  | Regex
+|------------------|-------------|---------|--------|------
+| Código           | 1           |         |        |
+| Nome             | 2           |         |        |- \\(COD (.\*?)\\) \| \\(CÓDIGO (.\*?)\\)
+| Preço            | 3           |         |        |
+| Código de barra  |             |         | {Name} | \\(COD (.\*?)\\) \| \\(CÓDIGO (.\*?)\\)
+
+Em **Nome** temos uma expressão regular com o prefixo **-**, para remover.  
+Em **Código de barra** temos a mesma expressão regular, mas sem o **-** e com o campo {Name}, indicando que deve pegar o conteúdo do Nome e extrair tudo que houver na expressão.  
+Pode ser usada várias expressões regulares separadas por |, nessa exemplo utilizado para localizar tanto  com o prefixo COD quando CÓDIGO.
+
+As expressões regulares podem ser testadas em https://regex101.com/r/TwzThc/1
+
+Resultado com o **Nome** sem os códigos, sendo extraídos para o campo **Códigos de barras**:
+![Resultado](Imagens/ProdutosFormatacaoAvancada.jpg)
