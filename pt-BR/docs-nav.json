@@ -33,6 +33,19 @@
       ]
     },
     {
+      "text": "Aplicativo (Player)",
+      "items": [
+        {          
+          "text": "Atalhos",
+          "path": "Atalhos.md"          
+        },
+        {          
+          "text": "Comandos",
+          "path": "Comandos.md"
+        }
+      ]
+    },
+    {
       "text": "Detalhes técnicos",
       "items": [
         {          
