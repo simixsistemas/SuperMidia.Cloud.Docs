@@ -9,4 +9,4 @@
 
 ## Tempo de processamento
 
-- Arquivos de importação: Varia muito conforme o tamanho e a demanda, mas geralmente em menos de 2 minutos. A página de [Processamento da importação](https://beta.supermidiadigital.com.br/EtlFileImps) é atualizada em tempo real.
+- Arquivos de importação: Varia muito conforme o tamanho e a demanda, mas geralmente em menos de 2 minutos. A página de [Processamento da importação](https://cloud.supermidiadigital.com.br/EtlFileImps) é atualizada em tempo real.
