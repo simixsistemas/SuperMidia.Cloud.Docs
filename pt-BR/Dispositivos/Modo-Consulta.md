@@ -2,7 +2,7 @@
 
 ![Modo de consulta](../Imagens/ModoConsulta.jpg)
 
-As opções do modo de consulta do Terminal são:
+As opções do modo de consulta do Terminal são:  
 
 - **Offline**: Conulta somente os produtos que estão no equipamento.
 - **Online**: Consulta na nuvem.
