@@ -1,8 +1,8 @@
 {
-  "items":[
+  "items": [
     {
-      "text":"Dicas",
-      "path":"Dicas.md"
+      "text": "Dicas",
+      "path": "Dicas.md"
     },
     {
       "text": "Importação de arquivos",
@@ -25,20 +25,37 @@
     {
       "text": "Produtos",
       "items": [
-        {          
+        {
+          "text": "Cadastro de produtos",
+          "path": "Produtos.md"
+        },
+        {
           "text": "Modelos de ofertas",
-          "path": "Modelo-Ofertas.md"          
+          "path": "Modelo-Ofertas.md"
+        }
+      ]
+    },
+    {
+      "text": "Cartazes e encartes",
+      "items": [
+        {
+          "text": "Geração de cartazes",
+          "path": "Studio/Geracao.md"
+        },
+        {
+          "text": "Editor de layouts",
+          "path": "Studio/Editor.md"
         }
       ]
     },
     {
       "text": "Aplicativo (Player)",
       "items": [
-        {          
+        {
           "text": "Atalhos",
-          "path": "App/Atalhos.md"          
+          "path": "App/Atalhos.md"
         },
-        {          
+        {
           "text": "Comandos",
           "path": "App/Comandos.md"
         }
@@ -47,7 +64,7 @@
     {
       "text": "Detalhes técnicos",
       "items": [
-        {          
+        {
           "text": "Limitações",
           "path": "Limitacoes.md"
         }
