@@ -14,11 +14,45 @@
       ]
     },
     {
+      "text": "Integrações",
+      "items": [
+        {
+          "text": "SuperMídia Client",
+          "path": "Integracoes/SuperMidia-Client.md"
+        }
+      ]
+    },
+    {
       "text": "Dispositivos",
       "items": [
         {
           "text": "Modo de consulta",
           "path": "Dispositivos/Modo-Consulta.md"
+        }
+      ]
+    },
+    {
+      "text": "Playlist",
+      "items": [
+        {
+          "text": "Playlists",
+          "path": "Playlist/Playlists.md"
+        },
+        {
+          "text": "Programação",
+          "path": "Playlist/Programacao.md"
+        },
+        {
+          "text": "Layouts",
+          "path": "Playlist/Layouts.md"
+        },
+        {
+          "text": "Senha em fila",
+          "path": "Playlist/Senha-Fila.md"
+        },
+        {
+          "text": "Reprodução",
+          "path": "Playlist/Reproducao.md"
         }
       ]
     },
