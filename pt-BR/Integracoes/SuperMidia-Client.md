@@ -17,7 +17,7 @@ A lista mostra cada instalação, a loja, a situação (*Aguardando ativação* 
 
 ## Cadastrar uma instalação
 
-1. Clique em **Adicionar**.
+1. Clique em **Novo**.
 2. Na aba **Principal**, preencha:
    - **Nome** e **Loja**;
    - **Arquivos de importação**: os que esta instalação lê do ERP e envia;
